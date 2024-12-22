@@ -1,16 +1,7 @@
-# Convert Video to Static Images
+# Video utilities
 
-This project allows you to extract static images (screenshots) from a video file at regular intervals.
-
-## Features
-
-- Supports input videos in `.mkv` and other common formats.
-- Saves screenshots as sequentially numbered image files.
-- Configurable screenshot intervals.
-
----
-
-## How to Use
+- Convert Video to Static Images
+- Convert Video to Video H265
 
 ### Prerequisites
 
@@ -21,7 +12,7 @@ This project allows you to extract static images (screenshots) from a video file
    - **macOS (Homebrew):** `brew install ffmpeg`
    - **Windows:** Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add it to your `PATH`.
 
-### Installation
+#### Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/gibbok/convert-video-to-static-images.git
@@ -34,6 +25,14 @@ This project allows you to extract static images (screenshots) from a video file
    ```bash
    poetry install
    ``` 
+
+## Convert Video to Static Images
+
+This project allows you to extract static images (screenshots) from a video file at regular intervals.
+
+- Supports input videos in `.mkv` and other common formats.
+- Saves screenshots as sequentially numbered image files.
+- Configurable screenshot intervals.
 
 ### Usage
 
@@ -50,9 +49,16 @@ poetry run python extract_screenshots.py /path/to/video.mkv /path/to/output/fold
 
 The screenshots will be saved in the specified output folder as `.png` files, named sequentially.
 
-# Convert Video to Video H265
+## Convert a Video to H265 
 
-This project allows you to compress a video in to H265.
+This project allows you to compress a video in to H265 (with medium settings).
+
+### Usage
+
+Run the script with the following arguments:
+
+1. **Input video file:** Path to the video file (e.g., `/path/to/video.mkv`).
+2. **Output folder:** Directory where the final video will be saved (e.g., `/output`).
 
 Use as:
 
@@ -60,6 +66,7 @@ Use as:
 poetry run python compress_h265.py "/input.mkv" "/output"
 ```
 
+Notes: the script will save the output in `.mkv` format.
 
 ### License
 
