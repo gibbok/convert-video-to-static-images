@@ -1,7 +1,7 @@
 # Video utilities
 
-- Convert Video to Static Images
-- Convert Video to Video H265
+1. Convert Video to Static Images  
+2. Convert Video to H265  
 
 ### Prerequisites
 
@@ -49,9 +49,9 @@ poetry run python extract_screenshots.py /path/to/video.mkv /path/to/output/fold
 
 The screenshots will be saved in the specified output folder as `.png` files, named sequentially.
 
-## Convert a Video to H265 
+## Convert Video to H265
 
-This project allows you to compress a video in to H265 (with medium settings).
+Compress a video to H265 format with medium settings.
 
 ### Usage
 
