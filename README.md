@@ -50,6 +50,17 @@ poetry run python extract_screenshots.py /path/to/video.mkv /path/to/output/fold
 
 The screenshots will be saved in the specified output folder as `.png` files, named sequentially.
 
+# Convert Video to Video H265
+
+This project allows you to compress a video in to H265.
+
+Use as:
+
+```bash
+poetry run python compress_h265.py "/input.mkv" "/output"
+```
+
+
 ### License
 
 This project is licensed under the MIT License.
