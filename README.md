@@ -15,11 +15,11 @@
 #### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/gibbok/convert-video-to-static-images.git
+   git clone https://github.com/gibbok/video-utilities.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd convert-video-to-static-images/converter
+   cd video-utilities/converter
    ``` 
 3. Install dependencies:
    ```bash
